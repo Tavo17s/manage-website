@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('./assets/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 90% -25%;
+}
+
+.bg-gray-gradient {
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(ellipse at 7% 13%, rgba(255, 255, 255, 1) 0%, rgba(238, 224, 224, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(ellipse at 7% 13%, rgba(255, 255, 255, 1) 0%, rgba(238, 224, 224, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(ellipse at 7% 13%, rgba(255, 255, 255, 1) 0%, rgba(238, 224, 224, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(ellipse at 7% 13%, rgba(255, 255, 255, 1) 0%, rgba(238, 224, 224, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(ellipse at 7% 13%, rgba(255, 255, 255, 1) 0%, rgba(238, 224, 224, 1) 100%);
+
+}
